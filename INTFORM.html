@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="color-grad">
+            <div class="cards-container">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <p class="card-number">9591 6489 6389 101E</p>
+                <div class="nameOfCardOwner">
+                    <span>FELECIA LEIRE</span>
+                    <span>09/00</span>
+                </div>
+            </div>
+            <div class="back-card">
+                <img class="backOfCard" src="./images/bg-card-back.png">
+            </div> 
+        </div>
+
+
+        <div class="form-container">
+            <div class="form">
+                <label id="label1">CARD HOLDER NAME</label>
+                <input placeholder="e.g Jane Appleseed" id="name">
+                <label>CARD NUMBER</label>
+                <input placeholder="e.g 1234 5678 9123 0000" id="number">
+                <span class="error">Wrong format, numbers only</span>
+                <span class="last-form">
+                    <label>EXP .DATE [MM/YY]</label>
+                    <label id="cc-labe">cvc</label>
+                    <span>
+                        <input placeholder="MM" id="month">
+                        <span class="errror">can't be blank</span>
+                        <input placeholder="YY" id="year">
+                        <input placeholder="e.g 123">
+                        <span class="errror">can't be blank</span>    
+                    </span>
+                </span>
+                <button class="confirm-button">confirm</button>
+            </div>
+            <div class="successful-container">
+                <img src="./images/icon-complete.svg">
+                <h1>THANK YOU!</h1>
+                <p>We've addeded your card details</p>
+                <button>Continue</button>
+            </div>
+        </div>
+    </section>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
